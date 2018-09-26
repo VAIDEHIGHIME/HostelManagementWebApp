@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    width: 200px;
+    font-size: 20px;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:   #FF8C00;
+}
+
+.vertical-menu a {
+    background-color: #333;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    width: 210px;
+    font-size: 15px;
+    font-style: bold;
+  
+}
+
+.vertical-menu a:hover {
+    background-color: #111;
+}
+
+.vertical-menu a.active {
+    background-color: #FFD700   ;
+    color: black;
+}
+
+.notice-board {
+    display:block;
+    float: right;
+    width: 1100px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 15px;
+    font-style: underline;
+}
+
+
+
+</style>
+</head>
+<body>
+<p> </p>
+<p> </p>
+<p> </p>
+<div id="wrap">
+<ul>
+  <li><a class="active" href="#home"><b>Notice Board</b></a></li>
+  <li><a href="#leave"><b>Leave Section</b></a></li>
+  <li><a href="#complain"><b>Complain Section</b></a></li>
+  <li style="float:right"><a href="#about"><b>Welcome, Student</b></a></li>
+</ul>
+
+<h1>Vertical Menu</h1>
+
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">Girls' Hostel Rules</a>
+  <a href="#">Fee Payment</a>
+</div>
+<div class = "notice-board"> <h1> <u>NOTICE BOARD</u> </h1>
+<p> 1. All the students are requested to kindly submit the hostel fees for the next academic semester (July - Dec, 2018) by 'May 5th, 2018'. </p>
+<p>- Hostel I/C </p>
+</div>
+</div>
+
+
+
+
+</body>
+</html>

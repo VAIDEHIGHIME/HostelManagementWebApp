@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    width: 200px;
+    font-size: 20px;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:   #FF8C00;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="#home"><b>Notice Board</b></a></li>
+  <li><a class="active" href="#leave"><b>Leave Section</b></a></li>
+  <li><a href="#complain"><b>Complain Section</b></a></li>
+  <li style="float:right"><a href="#about"><b>Welcome, Student</b></a></li>
+</ul>
+
+</body>
+</html>
